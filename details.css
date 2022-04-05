@@ -1,0 +1,11 @@
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
