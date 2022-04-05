@@ -1,11 +1,76 @@
+.personal-page-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: rgb(105, 111, 128);
+    transition: all ease 0.2s;
+}
+
+.navbar-item a:hover {
+    color: rgb(61, 61, 61);
+}
+
+.work-projects {
+    display: grid;
+}
+
+.work-item img {
+    max-width: 300px;
+    border-radius: 0.3em;
+}
+
+.hobbies-text h3 {
+    text-align: center;
+}
+
 .contact-form fieldset {
     border: none;
+}
+
+.contact-form h3 {
+    text-align: center;
 }
 
 .contact-form form {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 50%;
+    left: 50%;
+    position: bottom;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    overflow: auto;
+}
+
+.personal-page-footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.personal-page-footer ul{
+    display: flex;
     justify-content: center;
-    width: 50%;
+    flex-direction: row;
+    text-align: center;
+    font-size: 12px;
+}
+
+.linkedin-link {
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+}
+
+.github-link {
+    margin: 1rem;
 }

@@ -1,1 +1,11 @@
 @import "./details.css";
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap';
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
